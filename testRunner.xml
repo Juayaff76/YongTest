@@ -3,33 +3,26 @@
 
 <suite name="Sample Test Suit">
 
-
     <test name="Login Test">
         <classes>
             <class name="testcases.LoginTest"/>
         </classes>
     </test>
 
-
     <test name="Checkout Test">
         <classes>
             <class name="testcases.CheckoutTest"/>
         </classes>
     </test>
-
-
     <test name="FilterProduct Test">
         <classes>
             <class name="testcases.FilterProductTest"/>
         </classes>
     </test>
-
-
     <test name="AddToCart Test">
         <classes>
             <class name="testcases.AddToCartTest"/>
         </classes>
     </test>
-
 
 </suite>
