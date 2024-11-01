@@ -22,6 +22,7 @@ public class AddToCartPage {
     public void addProductToCart() {
         driver.findElement(product).click();
         driver.findElement(addToCartBtn).click();
+
         WebElement cartBadge = driver.findElement(By.xpath("//span[@class='fa-layers-counter shopping_cart_badge']"));
         String cartCountText = cartBadge.getText();
         Assert.assertEquals("Cart count is incorrect", "1", cartCountText);

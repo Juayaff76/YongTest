@@ -3,11 +3,13 @@
 
 <suite name="Sample Test Suit">
 
+
     <test name="Login Test">
         <classes>
             <class name="testcases.LoginTest"/>
         </classes>
     </test>
+
 
     <test name="Checkout Test">
         <classes>
@@ -15,11 +17,13 @@
         </classes>
     </test>
 
+
     <test name="FilterProduct Test">
         <classes>
             <class name="testcases.FilterProductTest"/>
         </classes>
     </test>
+
 
     <test name="AddToCart Test">
         <classes>
