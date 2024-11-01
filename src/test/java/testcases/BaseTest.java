@@ -2,6 +2,8 @@ package testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import pages.LoginPage;
 import utility.WebDriverFactory;
@@ -21,8 +23,10 @@ public class BaseTest {
 //        loginPage.pressLoginButton();
     }
 
-    @AfterMethod
+    @AfterSuite
     public void tearDown(){
-        driver.close();
+        if(driver!=null){
+            driver.quit();
+        }
     }
 }
