@@ -15,7 +15,17 @@
         </classes>
     </test>
 
+    <test name="FilterProduct Test">
+        <classes>
+            <class name="testcases.FilterProductTest"/>
+        </classes>
+    </test>
 
+    <test name="AddToCart Test">
+        <classes>
+            <class name="testcases.AddToCartTest"/>
+        </classes>
+    </test>
 
 
 </suite>
